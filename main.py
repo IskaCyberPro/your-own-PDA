@@ -17,7 +17,7 @@ def menu():
   "loin": "https://vk.com/id612168895",
 
  }
- return render_template("stalker_menu.html", **context)
+ return render_template("index.html", **context)
 
 
 @app.route('/yupiter/')
